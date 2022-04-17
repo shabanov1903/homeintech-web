@@ -1,0 +1,44 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "text": "Главная",
+      "path": "main"
+    },
+    {
+      "id": 2,
+      "text": "Услуги",
+      "path": "service"
+    },
+    {
+      "id": 3,
+      "text": "Калькулятор",
+      "path": "calculator"
+    },
+    {
+      "id": 4,
+      "text": "Вакансии",
+      "path": "vacancie"
+    },
+    {
+      "id": 5,
+      "text": "Медиа",
+      "path": "media"
+    },
+    {
+      "id": 6,
+      "text": "Патнерам",
+      "path": "partner"
+    },
+    {
+      "id": 7,
+      "text": "О нас",
+      "path": "about"
+    },
+    {
+      "id": 8,
+      "text": "Контакты",
+      "path": "contact"
+    }
+  ]
+}

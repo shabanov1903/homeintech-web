@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Sections } from './data/sections/sections';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'homeintech';
+
+  sections?: Sections;
+
+  constructor() {
+    this.sections = new Sections();
+    const k = 5;
+  }
 }

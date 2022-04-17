@@ -1,12 +1,7 @@
-@import '~bootstrap/scss/bootstrap';
-
-body {
-  margin: 10px;
-}
+@import "../../styles/colors.scss";
 
 .card-container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  @include flex-row-wrap;
   justify-content: space-between;
+  margin: 10px;
 }

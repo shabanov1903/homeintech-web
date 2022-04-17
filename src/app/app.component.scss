@@ -1,0 +1,27 @@
+@import "./styles/colors.scss";
+
+.header-container {
+  @include flex-row-wrap;
+  justify-content: start;
+  align-items: center;
+  margin-left: 2.5vh;
+  margin-top: 2.5vh;
+
+  div {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+nav {
+  justify-content: end;
+  position: sticky;
+  top: 0;
+  background-color: get-color("color-background");
+  z-index: 1;
+  font-weight: bold;
+
+  a {
+    color: get-color("color-text");
+  }
+}
