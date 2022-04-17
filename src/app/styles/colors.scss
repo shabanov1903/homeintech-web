@@ -1,0 +1,12 @@
+@use "sass:map";
+
+$theme-colors: (
+    "color-background": #ffffff,
+    "color-border": #611907,
+    "color-card": #d1e1f5,
+    "color-card-hover": #2251b8,
+);
+
+@function get-color($color-name) {
+    @return map.get($theme-colors, $color-name);
+}

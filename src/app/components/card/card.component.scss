@@ -1,0 +1,27 @@
+@import "../../styles/colors.scss";
+
+.card {
+  background-color: get-color("color-card");
+  border: 2px solid get-color("color-border");
+  border-radius: 5px;
+  min-height: 100px;
+  min-width: 150px;
+  text-align: center;
+
+  &:hover {
+    background-color: get-color("color-card-hover");
+  }
+
+  p {
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+  
+  img {
+    margin-top: 5px;
+    width: 64px;
+    height: 64px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

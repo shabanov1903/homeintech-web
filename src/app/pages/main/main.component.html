@@ -1,0 +1,11 @@
+<div class="card-container">
+  <ng-container
+    *ngFor="let item of categories?.getCategories()"
+  >
+    <app-card
+      [text]="item.text"
+      [img]="item.img"
+    >
+    </app-card>
+  </ng-container>
+</div>

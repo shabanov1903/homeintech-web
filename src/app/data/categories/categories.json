@@ -1,0 +1,36 @@
+{
+  "data": [
+    {
+      "text": "Видеонаблюдение",
+      "img": "/assets/icons/video.ico"
+    },
+    {
+      "text": "Умная техника",
+      "img": "/assets/icons/tech.ico"
+    },
+    {
+      "text": "Мультирум",
+      "img": "/assets/icons/music.ico"
+    },
+    {
+      "text": "Системы охраны",
+      "img": "/assets/icons/security.ico"
+    },
+    {
+      "text": "Хранение данных",
+      "img": "/assets/icons/data.ico"
+    },
+    {
+      "text": "Приложение",
+      "img": "/assets/icons/app.ico"
+    },
+    {
+      "text": "Электроснабжение",
+      "img": "/assets/icons/electro.ico"
+    },
+    {
+      "text": "Световые сцены",
+      "img": "/assets/icons/light.ico"
+    }
+  ]
+}
