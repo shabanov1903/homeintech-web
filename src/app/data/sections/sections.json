@@ -22,21 +22,26 @@
     },
     {
       "id": 5,
+      "text": "Проекты",
+      "path": "project"
+    },
+    {
+      "id": 6,
       "text": "Медиа",
       "path": "media"
     },
     {
-      "id": 6,
+      "id": 7,
       "text": "Патнерам",
       "path": "partner"
     },
     {
-      "id": 7,
+      "id": 8,
       "text": "О нас",
       "path": "about"
     },
     {
-      "id": 8,
+      "id": 9,
       "text": "Контакты",
       "path": "contact"
     }
