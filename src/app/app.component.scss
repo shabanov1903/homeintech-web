@@ -3,7 +3,7 @@
 
 .header-container {
   @include flex-row-wrap;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center;
   margin-left: 2.5vh;
   margin-top: 2.5vh;
@@ -16,7 +16,7 @@
 }
 
 nav {
-  justify-content: end;
+  justify-content: flex-end;
   position: sticky;
   top: 0;
   background-color: get-color("color-background");
