@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MainComponent } from './main.component';
 import { CardModule } from 'src/app/components/card/card.module';
+import { NgbCarouselModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -9,7 +10,8 @@ import { CardModule } from 'src/app/components/card/card.module';
   ],
   imports: [
     CommonModule,
-    CardModule
+    CardModule,
+    NgbCarouselModule
   ]
 })
 export class MainModule { }

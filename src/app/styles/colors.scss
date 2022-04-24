@@ -1,19 +1,9 @@
 @use "sass:map";
 
 $theme-colors: (
-    "color-background": #ffffff,
+    "color-background": #6e6c78,
     "color-border": #611907,
-    "color-card": #d1e1f5,
-    "color-card-hover": #2251b8,
-    "color-text": #05153b93,
+    "color-card": #887aa8,
+    "color-card-hover": #27263d,
+    "color-text": #ffffff,
 );
-
-@function get-color($color-name) {
-    @return map.get($theme-colors, $color-name);
-}
-
-@mixin flex-row-wrap {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
