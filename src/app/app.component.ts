@@ -13,6 +13,5 @@ export class AppComponent {
 
   constructor() {
     this.sections = new Sections();
-    const k = 5;
   }
 }

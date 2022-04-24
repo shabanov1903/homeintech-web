@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { MainComponent } from './main.component';
 import { CardModule } from 'src/app/components/card/card.module';
 import { NgbCarouselModule } from '@ng-bootstrap/ng-bootstrap';
+import {CarouselModule} from 'primeng/carousel';
 
 @NgModule({
   declarations: [
@@ -11,7 +12,8 @@ import { NgbCarouselModule } from '@ng-bootstrap/ng-bootstrap';
   imports: [
     CommonModule,
     CardModule,
-    NgbCarouselModule
+    NgbCarouselModule,
+    CarouselModule
   ]
 })
 export class MainModule { }

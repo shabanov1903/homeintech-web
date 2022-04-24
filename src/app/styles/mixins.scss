@@ -9,3 +9,9 @@
     flex-direction: row;
     flex-wrap: wrap;
 }
+
+@mixin image-on-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}

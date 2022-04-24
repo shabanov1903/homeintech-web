@@ -1,3 +1,35 @@
+<!--
+<ngb-carousel #carousel [interval]="5000" [pauseOnHover]="true">
+  <ng-template ngbSlide *ngFor="let img of images?.getPaths(); index as i" class="test-container">
+    <div class="carousel-caption">
+      <h5>{{images?.getText(i+1)}}</h5>
+    </div>
+    <img [src]="img" alt="..." class="test">
+  </ng-template>
+</ngb-carousel>
+-->
+
+<h3>Успей посмотреть</h3>
+<p-carousel [value]="images?.getPaths()!" [numVisible]="5" [numScroll]="1" class="align-items-center">
+  <ng-template let-img pTemplate="item align-items-center">
+    <div><img [src]="img" alt="..."></div>
+  </ng-template>
+</p-carousel>
+
+<h3>Успей посмотреть</h3>
+<p-carousel [value]="images?.getPaths()!" [numVisible]="4" [numScroll]="1" class="align-items-center">
+  <ng-template let-img pTemplate="item align-items-center">
+    <div><img [src]="img" alt="..."></div>
+  </ng-template>
+</p-carousel>
+
+<h3>Успей посмотреть</h3>
+<p-carousel [value]="images?.getPaths()!" [numVisible]="5" [numScroll]="1" class="align-items-center">
+  <ng-template let-img pTemplate="item align-items-center">
+    <div><img [src]="img" alt="..."></div>
+  </ng-template>
+</p-carousel>
+
 <div class="card-container">
   <ng-container
     *ngFor="let item of categories?.getCategories()"
@@ -9,12 +41,3 @@
     </app-card>
   </ng-container>
 </div>
-
-<ngb-carousel #carousel [interval]="5000000" [pauseOnHover]="true">
-  <ng-template ngbSlide *ngFor="let img of images?.getPaths(); index as i" class="test-container">
-    <div class="carousel-caption">
-      <h5>{{images?.getText(i+1)}}</h5>
-    </div>
-    <img [src]="img" alt="..." class="test">
-  </ng-template>
-</ngb-carousel>
