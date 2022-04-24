@@ -1,9 +1,10 @@
 @use "sass:map";
 
 $theme-colors: (
-    "color-background": #494850,
+    "color-background-gradient-header": #ffffff,
+    "color-background-gradient-fluter": #ffffff,
     "color-border": #611907,
-    "color-card": #887aa8,
-    "color-card-hover": #27263d,
-    "color-text": #ffffff,
+    "color-card": #ffffff,
+    "color-card-hover": #666666,
+    "color-text": #5e5e5e,
 );

@@ -1,35 +1,34 @@
-<!--
-<ngb-carousel #carousel [interval]="5000" [pauseOnHover]="true">
-  <ng-template ngbSlide *ngFor="let img of images?.getPaths(); index as i" class="test-container">
-    <div class="carousel-caption">
-      <h5>{{images?.getText(i+1)}}</h5>
-    </div>
-    <img [src]="img" alt="..." class="test">
-  </ng-template>
-</ngb-carousel>
--->
+<div class="background-image"></div>
 
-<h3>Успей посмотреть</h3>
+<h3>Выбери свою технологию</h3>
 <p-carousel [value]="images?.getPaths()!" [numVisible]="5" [numScroll]="1" class="align-items-center">
   <ng-template let-img pTemplate="item align-items-center">
     <div><img [src]="img" alt="..."></div>
   </ng-template>
 </p-carousel>
 
-<h3>Успей посмотреть</h3>
-<p-carousel [value]="images?.getPaths()!" [numVisible]="4" [numScroll]="1" class="align-items-center">
+<h3>Сделай свой дом уютнее</h3>
+<p-carousel [value]="images?.getPaths()!" [numVisible]="6" [numScroll]="1" class="align-items-center">
   <ng-template let-img pTemplate="item align-items-center">
-    <div><img [src]="img" alt="..."></div>
+    <div><img [src]="img" alt="..." class="img-2"></div>
   </ng-template>
 </p-carousel>
 
-<h3>Успей посмотреть</h3>
+<h3>Наши работы</h3>
+<p-carousel [value]="images?.getPaths()!" [numVisible]="3" [numScroll]="1" class="align-items-center">
+  <ng-template let-img pTemplate="item align-items-center">
+    <div><img [src]="img" alt="..." class="img-3"></div>
+  </ng-template>
+</p-carousel>
+
+<h3>Карта сайта</h3>
 <p-carousel [value]="images?.getPaths()!" [numVisible]="5" [numScroll]="1" class="align-items-center">
   <ng-template let-img pTemplate="item align-items-center">
     <div><img [src]="img" alt="..."></div>
   </ng-template>
 </p-carousel>
 
+<h3>Сделай свой дом уютнее</h3>
 <div class="card-container">
   <ng-container
     *ngFor="let item of categories?.getCategories()"
