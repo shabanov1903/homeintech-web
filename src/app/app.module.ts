@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MainModule } from './pages/main/main.module';
+import { MenubarModule } from 'primeng/menubar';
 
 @NgModule({
   declarations: [
@@ -12,7 +13,8 @@ import { MainModule } from './pages/main/main.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MainModule
+    MainModule,
+    MenubarModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,34 @@
+{
+  "navigations": [
+    {
+      "id": 1,
+      "path": "/assets/navigations/works.jpg",
+      "text": "Наши работы"
+    },
+    {
+      "id": 2,
+      "path": "/assets/navigations/partners.jpg",
+      "text": "Партнерам"
+    },
+    {
+      "id": 3,
+      "path": "/assets/navigations/reviews.jpg",
+      "text": "Отзывы"
+    },
+    {
+      "id": 4,
+      "path": "/assets/navigations/vacancies.jpg",
+      "text": "Вакансии"
+    },
+    {
+      "id": 5,
+      "path": "/assets/navigations/calculator.jpg",
+      "text": "Калькулятор"
+    },
+    {
+      "id": 6,
+      "path": "/assets/navigations/contacts.jpg",
+      "text": "Контакты"
+    }
+  ]
+}

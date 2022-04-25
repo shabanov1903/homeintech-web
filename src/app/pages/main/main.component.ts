@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Categories } from 'src/app/data/categories/categories';
-import { Images } from 'src/app/data/images/images';
+import { Sections } from '../../data/sections/sections';
+import { Element } from '../../data/sections/sections';
 
 @Component({
   selector: 'app-main',
@@ -9,13 +9,11 @@ import { Images } from 'src/app/data/images/images';
 })
 export class MainComponent implements OnInit {
 
-  public categories?: Categories;
-  public images?: Images;
+  public sections?: Array<Array<Element>>;
 
   constructor() { }
 
   ngOnInit(): void {
-    this.categories = new Categories();
-    this.images = new Images();
+    this.sections = new Sections().getAllSections();
   }
 }

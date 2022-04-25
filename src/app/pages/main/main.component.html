@@ -1,5 +1,14 @@
 <div class="background-image"></div>
 
+<ng-container *ngFor="let item in sections">
+  <p-carousel [value]="item" [numVisible]="5" [numScroll]="1" class="align-items-center">
+    <ng-template let-img pTemplate="item align-items-center">
+      <div><img [src]="img.path" alt="..."></div>
+    </ng-template>
+  </p-carousel>
+</ng-container>
+
+<!--
 <h3>Выбери свою технологию</h3>
 <p-carousel [value]="images?.getPaths()!" [numVisible]="5" [numScroll]="1" class="align-items-center">
   <ng-template let-img pTemplate="item align-items-center">
@@ -40,3 +49,4 @@
     </app-card>
   </ng-container>
 </div>
+-->

@@ -1,0 +1,44 @@
+{
+  "technologies": [
+    {
+      "id": 1,
+      "path": "/assets/technologies/knx.jpg",
+      "text": "KNX"
+    },
+    {
+      "id": 2,
+      "path": "/assets/technologies/modbus.jpg",
+      "text": "Modbus"
+    },
+    {
+      "id": 3,
+      "path": "/assets/technologies/bacnet.jpg",
+      "text": "BACNet"
+    },
+    {
+      "id": 4,
+      "path": "/assets/technologies/aqara.jpg",
+      "text": "Aqara Home"
+    },
+    {
+      "id": 5,
+      "path": "/assets/technologies/assistant.jpg",
+      "text": "Home Assistant"
+    },
+    {
+      "id": 6,
+      "path": "/assets/technologies/dali.jpg",
+      "text": "DALI"
+    },
+    {
+      "id": 7,
+      "path": "/assets/technologies/iridium.jpg",
+      "text": "Iridium Mobile"
+    },
+    {
+      "id": 8,
+      "path": "/assets/technologies/other.jpg",
+      "text": "Другие"
+    }
+  ]
+}

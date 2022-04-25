@@ -1,0 +1,44 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "path": "/assets/services/light.jpg",
+      "text": "Освещение"
+    },
+    {
+      "id": 2,
+      "path": "/assets/services/climat.jpg",
+      "text": "Климат"
+    },
+    {
+      "id": 3,
+      "path": "/assets/services/music.jpg",
+      "text": "Мультирум"
+    },
+    {
+      "id": 4,
+      "path": "/assets/services/security.jpg",
+      "text": "Охрана"
+    },
+    {
+      "id": 5,
+      "path": "/assets/services/data.jpg",
+      "text": "Хранение данных"
+    },
+    {
+      "id": 6,
+      "path": "/assets/services/video.jpg",
+      "text": "Видеонаблюдение"
+    },
+    {
+      "id": 7,
+      "path": "/assets/services/electro.jpg",
+      "text": "Электроснабжение"
+    },
+    {
+      "id": 8,
+      "path": "/assets/services/mobile.jpg",
+      "text": "Мобильные приложение"
+    }
+  ]
+}
