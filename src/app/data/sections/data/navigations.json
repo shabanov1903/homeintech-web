@@ -3,32 +3,38 @@
     {
       "id": 1,
       "path": "/assets/navigations/works.jpg",
-      "text": "Наши работы"
+      "text": "Наши работы",
+      "content": "Контент"
     },
     {
       "id": 2,
       "path": "/assets/navigations/partners.jpg",
-      "text": "Партнерам"
+      "text": "Партнерам",
+      "content": "Контент"
     },
     {
       "id": 3,
       "path": "/assets/navigations/reviews.jpg",
-      "text": "Отзывы"
+      "text": "Отзывы",
+      "content": "Контент"
     },
     {
       "id": 4,
       "path": "/assets/navigations/vacancies.jpg",
-      "text": "Вакансии"
+      "text": "Вакансии",
+      "content": "Контент"
     },
     {
       "id": 5,
       "path": "/assets/navigations/calculator.jpg",
-      "text": "Калькулятор"
+      "text": "Калькулятор",
+      "content": "Контент"
     },
     {
       "id": 6,
       "path": "/assets/navigations/contacts.jpg",
-      "text": "Контакты"
+      "text": "Контакты",
+      "content": "Контент"
     }
   ],
   "name": "Карта сайта"

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 import { MenuItem } from 'primeng/api/menuitem';
 import { Sections } from './data/sections/sections';
 import { Element } from './data/sections/sections';
@@ -15,7 +16,7 @@ export class AppComponent {
 
   items: MenuItem[] = new Array();
 
-  constructor() {
+  constructor(private router: Router) {
     this.sections = new Sections();
   }
 
@@ -23,30 +24,30 @@ export class AppComponent {
       this.items = [
       {
         label: 'Технологии',
-        items: this.generateLabels(this.sections?.getTechnologies()!)
+        items: this.generateLabels(this.sections?.getTechnologies()!, '/tech')
       },
       {
         label: 'Услуги',
-        items: this.generateLabels(this.sections?.getServices()!)
+        items: this.generateLabels(this.sections?.getServices()!, '/serv')
       },
       {
         label: 'Карта сайта',
-        items: this.generateLabels(this.sections?.getNavigations()!)
+        items: this.generateLabels(this.sections?.getNavigations()!, '/map')
       }
     ];
   }
 
-  generateLabels(elements: Array<Element>) {
+  generateLabels(elements: Array<Element>, url: string) {
     let mass = new Array();
     elements.forEach(item => {
       mass.push(
-        {label: item.text, icon: 'pi pi-angle-right', command: () => this.redirectTo(item.id.toString())}
+        {label: item.text, icon: 'pi pi-angle-right', command: () => this.redirectTo(url, item.id)}
       );
     });
     return mass;
   }
 
-  redirectTo(url: string) {
-    console.log(url);
+  redirectTo(url: string, id: number) {
+    this.router.navigate([url, id]);
   }
 }

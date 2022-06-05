@@ -38,4 +38,5 @@ export interface Element {
   id: number;
   path: string;
   text: string;
+  content: string;
 }

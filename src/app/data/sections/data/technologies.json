@@ -3,42 +3,50 @@
     {
       "id": 1,
       "path": "/assets/technologies/knx.jpg",
-      "text": "KNX"
+      "text": "KNX",
+      "content": "KNX — это мировой стандарт управления домом и зданием. Будь то жилое, коммерческое или промышленное сооружение, автоматизация систем отопления, кондиционирования и освещения имеет важное значение для энергоэффективности и максимального удобства и безопасности пользователей. Вот где приходит KNX. Система KNX позволяет всем компонентам взаимодействовать друг с другом, создавая динамическую систему управления зданием. Благодаря более чем 495 производителям, соответствующим стандарту KNX, гибкость и выбор не имеют себе равных."
     },
     {
       "id": 2,
       "path": "/assets/technologies/modbus.jpg",
-      "text": "Modbus"
+      "text": "Modbus",
+      "content": "Контент"
     },
     {
       "id": 3,
       "path": "/assets/technologies/bacnet.jpg",
-      "text": "BACNet"
+      "text": "BACNet",
+      "content": "Контент"
     },
     {
       "id": 4,
       "path": "/assets/technologies/aqara.jpg",
-      "text": "Aqara Home"
+      "text": "Aqara Home",
+      "content": "Контент"
     },
     {
       "id": 5,
       "path": "/assets/technologies/assistant.jpg",
-      "text": "Home Assistant"
+      "text": "Home Assistant",
+      "content": "Контент"
     },
     {
       "id": 6,
       "path": "/assets/technologies/dali.jpg",
-      "text": "DALI"
+      "text": "DALI",
+      "content": "Контент"
     },
     {
       "id": 7,
       "path": "/assets/technologies/iridium.jpg",
-      "text": "Iridium Mobile"
+      "text": "Iridium Mobile",
+      "content": "Контент"
     },
     {
       "id": 8,
       "path": "/assets/technologies/other.jpg",
-      "text": "Другие"
+      "text": "Другие",
+      "content": "Контент"
     }
   ],
   "name": "Технологии"

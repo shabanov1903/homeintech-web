@@ -3,42 +3,50 @@
     {
       "id": 1,
       "path": "/assets/services/light.jpg",
-      "text": "Освещение"
+      "text": "Освещение",
+      "content": "Контент"
     },
     {
       "id": 2,
       "path": "/assets/services/climat.jpg",
-      "text": "Климат"
+      "text": "Климат",
+      "content": "Контент"
     },
     {
       "id": 3,
       "path": "/assets/services/music.jpg",
-      "text": "Мультирум"
+      "text": "Мультирум",
+      "content": "Контент"
     },
     {
       "id": 4,
       "path": "/assets/services/security.jpg",
-      "text": "Охрана"
+      "text": "Охрана",
+      "content": "Контент"
     },
     {
       "id": 5,
       "path": "/assets/services/data.jpg",
-      "text": "Хранение данных"
+      "text": "Хранение данных",
+      "content": "Контент"
     },
     {
       "id": 6,
       "path": "/assets/services/video.jpg",
-      "text": "Видеонаблюдение"
+      "text": "Видеонаблюдение",
+      "content": "Контент"
     },
     {
       "id": 7,
       "path": "/assets/services/electro.jpg",
-      "text": "Электроснабжение"
+      "text": "Электроснабжение",
+      "content": "Контент"
     },
     {
       "id": 8,
       "path": "/assets/services/mobile.jpg",
-      "text": "Мобильные приложение"
+      "text": "Мобильные приложение",
+      "content": "Контент"
     }
   ],
   "name": "Услуги"
