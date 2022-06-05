@@ -2,7 +2,9 @@
 <div class="field">
   <p-fieldset>
     <ng-template pTemplate="header">{{technology?.text}}</ng-template>
-    <div>{{technology?.content}}</div>
-    <div style="margin-top: 15px;"><img [src]="technology?.path" alt="..." style="width: 30%;"></div>
+    <app-tech-form
+      [$technology]="subject"
+    >
+    </app-tech-form>
   </p-fieldset>
 </div>

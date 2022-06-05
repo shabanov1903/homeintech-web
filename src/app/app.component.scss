@@ -12,6 +12,10 @@
     padding-left: 10px;
     padding-right: 10px;
     color: get-color("color-text");
+
+    img {
+      cursor: pointer;
+    }
   }
 }
 
@@ -19,4 +23,9 @@ p-menubar {
   margin-left: auto;
   margin-right: 45px;
   align-self: flex-end;
+}
+
+footer {
+  height: 20vh;
+  background-color: get-color("color-footer");
 }

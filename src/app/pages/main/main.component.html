@@ -1,7 +1,7 @@
 <div class="header-image"></div>
 
 <ng-container *ngFor="let item of sections; let i = index">
-  <h3 class="header-carousel">{{names[i]}}</h3>
+  <h3 class="header-carousel">{{names[i].name}}</h3>
   <p-carousel
     [value]="item"
     [circular]="true"
@@ -9,7 +9,7 @@
     [numScroll]="1"
     [responsiveOptions]="responsiveOptions">
     <ng-template let-img pTemplate="item">
-      <div><img [src]="img.path" alt="..."></div>
+      <div><img [src]="img.path" alt="..." [routerLink]="[names[i].url, img.id]"></div>
     </ng-template>
   </p-carousel>
 </ng-container>

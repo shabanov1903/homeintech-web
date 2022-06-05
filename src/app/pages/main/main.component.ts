@@ -10,7 +10,7 @@ import { Element } from '../../data/sections/sections';
 export class MainComponent implements OnInit {
 
   sections: Array<Array<Element>> = new Array<Array<Element>>();
-  names: Array<string> = new Array<string>();
+  names: Array<Name> = new Array<Name>();
   responsiveOptions: Array<object>;
 
   constructor() {
@@ -46,9 +46,14 @@ export class MainComponent implements OnInit {
   ngOnInit(): void {
     this.sections = new Sections().getAllSections();
     this.names = [
-      "Технологии",
-      "Услуги",
-      "Карта сайта"
+      {name: "Технологии", url: "/tech"},
+      {name: "Услуги", url: "/serv"},
+      {name: "Карта сайта", url: "/map"}
     ];
   }
+}
+
+interface Name {
+  name: string;
+  url: string;
 }

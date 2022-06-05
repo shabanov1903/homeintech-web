@@ -1,0 +1,3 @@
+<div *ngIf="($technology | async) as data" class="main-form">
+  <img src="{{data.path}}" alt=""> <p>{{data.content}}</p>
+</div>
