@@ -1,47 +1,21 @@
 @import "../../styles/colors.scss";
 @import "../../styles/mixins.scss";
 
-.card-container {
-  @include flex-row-wrap;
-  justify-content: space-evenly;
-  margin: 10px;
-}
-
-ngb-carousel {
-  width: 100%;
-  margin: auto;
-
-  img {
-    object-fit: contain;
-    width: 50%;
-    height: 30vh;
-  }
-}
-
-h3 {
-  color: get-color("color-text");
-  text-align: center;
-  padding: 0 0 0 4vw;
-}
-
-@for $i from 1 through 3 {
-  .img-#{$i} {
-    @include image-on-center;
-    @include size-of-card(15vh * $i, 10vh * $i);
-    border-radius: 5px;
-  }
-}
-
 img {
   @include image-on-center;
   @include size-of-card(35vh, 25vh);
   border-radius: 5px;
+  cursor: pointer;
 }
 
-.background-image {
+.header-image {
   background-image: url("/assets/banners/mainbanner.jpg");
   background-size: contain;
-  width: 100vw;
+  width: 100%;
   height: 30vh;
   margin-top: 15px;
+}
+
+.header-carousel {
+  text-align: center;
 }

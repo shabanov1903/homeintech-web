@@ -1,52 +1,15 @@
-<div class="background-image"></div>
+<div class="header-image"></div>
 
-<ng-container *ngFor="let item in sections">
-  <p-carousel [value]="item" [numVisible]="5" [numScroll]="1" class="align-items-center">
-    <ng-template let-img pTemplate="item align-items-center">
+<ng-container *ngFor="let item of sections; let i = index">
+  <h3 class="header-carousel">{{names[i]}}</h3>
+  <p-carousel
+    [value]="item"
+    [circular]="true"
+    [numVisible]="5"
+    [numScroll]="1"
+    [responsiveOptions]="responsiveOptions">
+    <ng-template let-img pTemplate="item">
       <div><img [src]="img.path" alt="..."></div>
     </ng-template>
   </p-carousel>
 </ng-container>
-
-<!--
-<h3>Выбери свою технологию</h3>
-<p-carousel [value]="images?.getPaths()!" [numVisible]="5" [numScroll]="1" class="align-items-center">
-  <ng-template let-img pTemplate="item align-items-center">
-    <div><img [src]="img" alt="..."></div>
-  </ng-template>
-</p-carousel>
-
-<h3>Сделай свой дом уютнее</h3>
-<p-carousel [value]="images?.getPaths()!" [numVisible]="6" [numScroll]="1" class="align-items-center">
-  <ng-template let-img pTemplate="item align-items-center">
-    <div><img [src]="img" alt="..." class="img-2"></div>
-  </ng-template>
-</p-carousel>
-
-<h3>Наши работы</h3>
-<p-carousel [value]="images?.getPaths()!" [numVisible]="3" [numScroll]="1" class="align-items-center">
-  <ng-template let-img pTemplate="item align-items-center">
-    <div><img [src]="img" alt="..." class="img-3"></div>
-  </ng-template>
-</p-carousel>
-
-<h3>Карта сайта</h3>
-<p-carousel [value]="images?.getPaths()!" [numVisible]="5" [numScroll]="1" class="align-items-center">
-  <ng-template let-img pTemplate="item align-items-center">
-    <div><img [src]="img" alt="..."></div>
-  </ng-template>
-</p-carousel>
-
-<h3>Сделай свой дом уютнее</h3>
-<div class="card-container">
-  <ng-container
-    *ngFor="let item of categories?.getCategories()"
-  >
-    <app-card
-      [text]="item.text"
-      [img]="item.img"
-    >
-    </app-card>
-  </ng-container>
-</div>
--->
